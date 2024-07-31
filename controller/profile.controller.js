@@ -28,8 +28,8 @@ try{
         profileImageURL: user.profileImageURL,
         blogs: blogs
       });;
-    //   console.log(user)
-      console.log(blogs)
+      console.log(user)
+      //console.log(blogs)
 }
 catch(err){
     return res.status(500).json({message:err.message})
